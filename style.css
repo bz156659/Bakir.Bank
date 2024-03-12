@@ -1,14 +1,48 @@
-h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: large;
-    font-weight: 500;
-    color: blue;
+/* Hier kann die CSS-Styling angepasst werden, um ein elegantes und professionelles Design zu erreichen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-
-footer{
-    background-color: azure;
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:indigo
 }
-header{
-    background-color: darkblue;
-
+footer {
+    background-color: #040311;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.logo {
+    width: 140px;
+    height: auto;
+}
+.icon {
+    width: 10px;
+    height: auto;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #0056b3;
 }
